@@ -7,7 +7,7 @@ class Solution(object):
 		nums.sort()
 		tupleList = []
 		tupleSum = 0
-		for i in range(0,len(nums),2):
+		for i in range(0, len(nums), 2):
 			currentTuple = (nums[i], nums[i+1])
 			tupleList.append(currentTuple)
 			tupleSum += min(currentTuple)
